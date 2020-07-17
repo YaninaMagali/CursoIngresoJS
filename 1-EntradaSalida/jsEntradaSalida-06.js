@@ -4,11 +4,14 @@ transformarlos a enteros (parseInt) y Sumarlos.
 mostrar el resulto por medio de "ALERT"*/
 function sumar()
 {
-	var numeroUno = document.getElementById("txtIdNumeroUno").value;
-	var numeroDos = document.getElementById("txtIdNumeroDos").value;
+	var numeroUno;
 
-	numeroUno = parseInt(numeroUno, 10);
-	numeroDos = parseInt(numeroDos, 10);
-	alert(numeroUno + numeroDos);
+	var numeroDos;
+
+	numeroUno = parseInt(document.getElementById("txtIdNumeroUno").value, 10);
+
+	numeroDos = parseInt(document.getElementById("txtIdNumeroDos").value, 10);
+	
+	alert("La suma es " + (numeroUno + numeroDos));
 }
 
