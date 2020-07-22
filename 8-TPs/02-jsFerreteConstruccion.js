@@ -17,7 +17,7 @@ function Circulo ()
 {
     var radio = parseFloat(document.getElementById("txtIdRadio").value);
     var cantidadAlambres = 3;
-    alert("Debe comprar "  + (2 * 1,33 * radio * cantidadAlambres )+ " mts de alambre");
+    alert("Debe comprar "  + (2 * Math.PI * radio * cantidadAlambres ).toFixed(2)+ " mts de alambre");
     
     
 }
