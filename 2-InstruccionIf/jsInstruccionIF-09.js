@@ -1,6 +1,9 @@
 function mostrar()
 {
-	//Genero el número RANDOM entre 1 y 10 
-	alert("ok");	
+	let min = 1;
+	let max = 100;
+	let randomNum = Math.round(Math.random()* max + min + min);
+
+	alert(parseInt(randomNum));
 
 }//FIN DE LA FUNCIÓN
